@@ -1,6 +1,3 @@
--- Setup script for Mini Inventory Management System
--- Run this in your MySQL client (e.g., mysql -u root < setup.sql) or copy-paste into MySQL Workbench
-
 DROP DATABASE IF EXISTS inventory_db;
 CREATE DATABASE inventory_db;
 USE inventory_db;
@@ -12,7 +9,6 @@ CREATE TABLE items (
     quantity INT NOT NULL DEFAULT 0
 );
 
--- Optionally insert sample data
 INSERT INTO items (name, price, quantity) VALUES
 ('Notebook', 25.00, 50),
 ('Pen', 5.50, 200),
