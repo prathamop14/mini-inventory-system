@@ -1,23 +1,15 @@
-"""
-Mini Inventory Management System (Console)
-Python + MySQL (mysql-connector-python)
-Author: Generated for Pratham B. Thakar
-"""
-
-
 import sys
 import mysql.connector
 from mysql.connector import Error
 
 
-# ---------- Configuration (change if needed) ----------
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
     "password": "",
     "database": "inventory_db"
 }
-# -----------------------------------------------------
+
 
 
 def create_connection():
