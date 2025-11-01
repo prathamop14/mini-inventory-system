@@ -43,16 +43,3 @@ python inventory.py
 6. **Usage**:
 - Choose options from the menu to add, view, update, or delete items.
 - If you change your MySQL username/password, update `DB_CONFIG` in `inventory.py` before running.
-
-## How to upload to GitHub
-1. Create a new repository on GitHub (e.g., `mini-inventory-system`).
-2. Upload these three files: `inventory.py`, `setup.sql`, `README.md`.
-3. Add a short README description (the file here is ready to use).
-
-## Notes for interviews
-- Explain that this is a beginner-level console project showing CRUD operations and database connectivity.
-- Mention you wrote the Python script to interact with a MySQL database using `mysql-connector-python`.
-- Keep explanations simple: how you insert/select/update/delete records and how the menu works.
-
----
-Good luck! If you want, I can also format the project into a ZIP so you can download and upload to GitHub directly.
