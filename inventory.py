@@ -177,3 +177,4 @@ Mini Inventory Management System
 if __name__ == "__main__":
     print("Make sure MySQL server is running and setup.sql has been executed (to create DB & table).")
     main_menu()
+    
